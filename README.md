@@ -67,7 +67,7 @@ python3 build_image.py
 
 ## Files
 
-- `main.py` — the entrypoint: draws the page and writes `/output/entry.png`
+- `main.py` — the entrypoint: copies the bundled `entry.png` to `/output/entry.png` (stdlib only, no drawing at runtime)
 - `build_image.py` — the drawing code and all story text
 - `entry.png` — the rendered front page
 - `NOTES.md` — research notes: every story with its sources
